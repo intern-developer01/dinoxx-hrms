@@ -4,4 +4,4 @@ from django.shortcuts import render
 
 
 def get_api(response):
-    return render(response, "api/api.html", {})
+    return render(response, "index.html", {})
